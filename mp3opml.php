@@ -1,10 +1,10 @@
 <?php
 
-// END BOTH PATHS IN A /
-// path from script to tunez
-$rootpath = "/home/pip/mp3-radio/";
-// url to this script
-$feedpath = "http://philwilson.org/mp3-radio/mp3rss.php?dir=";
+// absolute path of base folder to scan
+$rootpath = "/media/removable/radio/";
+
+// url to the matching mp3rss.php file
+$feedpath = "http://192.168.1.7/mp3-radio/mp3rss.php?dir=";
 
 header('Content-type: application/xml');
 
