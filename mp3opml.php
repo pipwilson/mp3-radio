@@ -1,6 +1,5 @@
 <?php
 
-// END BOTH PATHS IN A /
 // path from script to tunez
 $rootpath = "/home/pip/mp3-radio/";
 // url to this script
